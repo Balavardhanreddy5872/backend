@@ -14,7 +14,7 @@ const Studio = require("./studio");
 // Middlewares
 router.use(
   cors({
-    origin: ["http://localhost:5173"],
+    origin: ["https://youtube-xi-red.vercel.app"],
     methods: ["POST", "GET"],
     credentials: true,
   })
