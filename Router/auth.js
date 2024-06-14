@@ -38,7 +38,7 @@ auth.post("/signup", async (req, res) => {
     });
 
     const mailOptions = {
-      from: "admin@shubho.youtube.app",
+      from: "balavardhanreddy03@gmail.com",
       to: email,
       subject: "Welcome to Shubho's YouTube Clone!",
       html: `
