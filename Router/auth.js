@@ -8,7 +8,7 @@ const auth = express.Router();
 const nodemailer = require("nodemailer");
 const URL = "https://backend-vygo.onrender.com";
 
-auth.get("/signup", async (req, res) => {
+auth.post("/signup", async (req, res) => {
   try {
     const { name, email, password } = req.body;
     const user = await userData.findOne({ email });
